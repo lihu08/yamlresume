@@ -22,7 +22,7 @@
  * IN THE SOFTWARE.
  */
 
-export { createBuildCommand } from './build'
+export { buildResume, createBuildCommand } from './build'
 export { createDevCommand } from './dev'
 export { createNewCommand } from './new'
 export { createLanguagesCommand } from './languages'

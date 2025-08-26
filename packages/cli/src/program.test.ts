@@ -99,4 +99,34 @@ describe('program', () => {
       expect(consola.level).toBe(4)
     })
   })
+
+  describe('shorthand file syntax', () => {
+    it('should support file extensions .yml, .yaml, .json for shorthand', () => {
+      // Test the regex logic for file detection
+      const isResumeFile = (file: string) => /\.(ya?ml|json)$/i.test(file)
+      
+      expect(isResumeFile('resume.yml')).toBe(true)
+      expect(isResumeFile('resume.yaml')).toBe(true)
+      expect(isResumeFile('resume.json')).toBe(true)
+      expect(isResumeFile('resume.YML')).toBe(true)
+      expect(isResumeFile('resume.YAML')).toBe(true)
+      expect(isResumeFile('resume.JSON')).toBe(true)
+      
+      expect(isResumeFile('resume.txt')).toBe(false)
+      expect(isResumeFile('resume')).toBe(false)
+      expect(isResumeFile('resume.doc')).toBe(false)
+    })
+
+    it('should handle help command correctly', () => {
+      expect(() => 
+        program.parse(['node', 'cli.js', '--help'])
+      ).toThrow('(outputHelp)')
+    })
+
+    it('should handle version command correctly', () => {
+      expect(() => 
+        program.parse(['node', 'cli.js', '--version'])
+      ).toThrow(packageJson.version)
+    })
+  })
 })

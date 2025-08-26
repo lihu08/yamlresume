@@ -102,129 +102,43 @@ content:
       #  - Growth
       #  - Quality
       #  - Mentorship
-    - name: PPResume
-      url: https://ppresume.com
-      startDate: Sep 1, 2020
-      endDate: Dec 1, 2022
+    - name: Orange Business Services 
+      url: Remote
+      startDate: Dec 10, 2017
+      endDate: Sep 15, 2019
+      position: Senior Project Manager 
+      summary: |
+        - Delivered a global SaaS B2B program generating $38M revenue by onboarding 25+ BPO and 7 hub sites supporting 10,000 agent users.
+        - Improved operational efficiency 20% and cut feature time‑to‑market 40% via streamlined development processes and governance.
+      #keywords:
+      #  - RESTful
+      #  - React
+      #  - Agile
+    - name: China CITIC Bank 
+      url: Shenzhen, China
+      startDate: Aug 10, 2016
+      endDate: Apr 5, 2017
+      position: Project Manager
+      summary: |
+      - Led a team of 16; increased AWS cloud roadmap adoption 20% by prioritizing 100+ Jira requirements.
+      - Streamlined change management, reducing feature lead times and deployment errors 25%.
+    - name: Hewlett Packard Enterprise 
+      url: Remote
+      startDate: July 21, 2013
+      endDate: Aug 5, 2016
+      position: Project Manager
+      summary: |
+      - Managed 25+ large‑scale cloud projects (each >$5M), increasing system scalability 16% and reducing costs 10%.
+      - Led POC/POT evaluations, accelerating decisions for cloud solutions and reducing time‑to‑market 12%; 
+      - recognized Top Performer for three consecutive years.
+    - name: Huawei Technologies 
+      url: Shenzhen, China
+      startDate: July 21, 2008
+      endDate: July 20, 2013
       position: Software Engineer
       summary: |
-        - Created reusable React components to ensure code efficiency and maintainability
-        - Integrated with RESTful APIs to fetch and display dynamic data on the frontend
-        - Implemented client-side routing using React Router for smooth navigation between pages
-        - Actively participated in Agile development methodologies, attending daily stand-up meetings and sprint planning sessions
-      keywords:
-        - RESTful
-        - React
-        - Agile
-  languages:
-    # valid language fluency options:
-    # - 'Elementary Proficiency'
-    # - 'Limited Working Proficiency'
-    # - 'Minimum Professional Proficiency'
-    # - 'Full Professional Proficiency'
-    # - 'Native or Bilingual Proficiency'
-    - language: English
-      fluency: Native or Bilingual Proficiency
-      keywords:
-        - TOEFL 110
-        - IELTS 7.5
-    - language: Chinese
-      fluency: Elementary Proficiency
-      keywords: []
-  skills:
-    # valid level options:
-    # - 'Novice'
-    # - 'Beginner'
-    # - 'Intermediate'
-    # - 'Advanced'
-    # - 'Expert'
-    # - 'Master'
-    - name: Web Development
-      level: Expert
-      keywords:
-        - Python
-        - Ruby
-        - CSS
-        - React
-        - JavaScript
-    - name: DevOps
-      level: Intermediate
-      keywords:
-        - Python
-        - Kubernetes
-        - Docker
-        - Shell
-        - Ansible
-    - name: Design
-      level: Intermediate
-      keywords:
-        - Sketch
-        - Figma
-        - Photoshop
-  awards:
-    - title: Dean's List
-      awarder: University of Southern California
-      date: Oct 2016
-      summary: |
-        Awarded to students who achieve a high academic standing by maintaining a specified grade point average (GPA) during a semester.
-  certificates:
-    - name: AWS Certified Developer - Associate
-      url: https://aws.amazon.com/certification/
-      issuer: AWS
-      date: Mar 2021
-  publications:
-    - publisher: ACM Transactions on Interactive Intelligent Systems
-      url: https://dl.acm.org/journal/tiis
-      name: Enhancing Human-Computer Interaction through Augmented Reality
-      releaseDate: Dec 2017
-      summary: |
-        - Explores the potential of augmented reality (AR) in improving interaction between humans and computers
-        - Highlights benefits of AR in various areas such as gaming, education, healthcare, and design
-        - Discusses challenges and future directions of AR technology in enhancing user experience
-  references:
-    - name: Dr. Amanda Reynolds
-      phone: "(555) 123-4567"
-      relationship: Computer Science Professor
-      email: amanda.reynolds@usc.edu
-      summary: |
-        Andy Dufresne shows exceptional problem-solving skills and a solid understanding of programming concepts, he would bring immense value to any team or organization he becomes a part of.
-  projects:
-    - name: EduWeb
-      url: https://www.eduweb.xyz/
-      description: A web-based educational platform for interactive learning
-      startDate: Sep 2016
-      endDate: Dec 2016
-      summary: |
-        - Designed to enhance online learning experiences
-        - Facilitates students' engagement and collaboration through interactive features and user-friendly interface
-        - Offers a wide range of courses across various subjects
-        - Aims to improve the way students learn through the power of the web
-      keywords:
-        - Education
-        - Online Learning
-        - HCI
-  interests:
-    - name: Sports
-      keywords:
-        - Soccer
-        - Swimming
-        - Bicycling
-        - Hiking
-    - name: Music
-      keywords:
-        - Piano
-        - Guitar
-  volunteer:
-    - organization: USC Computer Science and Engineering Society
-      url: https://www.usccsesociety.org/
-      position: Tech Mentor
-      startDate: Sep 2015
-      endDate: Jul 2023
-      summary: |
-        - Volunteered as a Tech Mentor at USC Computer Science and Engineering Society
-        - Provided guidance and assistance to fellow students in their technical projects and coursework
-        - Assisted in organizing workshops, coding competitions, and networking events for the society members
-        - Contributed to fostering a collaborative and supportive environment within the student community
+      - Led development & integration of large‑scale BSS projects; delivered 30+ major projects on time and budget.
+      - Resolved critical production issues, improving performance 15% and reducing downtime 20%
 
 layout:
   locale:

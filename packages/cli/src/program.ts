@@ -26,6 +26,7 @@ import { Command } from 'commander'
 
 import packageJson from '../package.json' with { type: 'json' }
 import {
+  buildResume,
   createBuildCommand,
   createDevCommand,
   createLanguagesCommand,
@@ -60,3 +61,36 @@ program.addCommand(createDevCommand())
 program.addCommand(createLanguagesCommand())
 program.addCommand(createTemplatesCommand())
 program.addCommand(createValidateCommand())
+
+// Add support for shorthand syntax: yamlresume resume.yml
+// This should work the same as: yamlresume build resume.yml
+program
+  .argument('[file]', 'resume file to build (shorthand for build command)')
+  .option('--no-pdf', 'only generate TeX file without PDF')
+  .option('--no-validate', 'skip resume schema validation')
+  .action(async (file: string | undefined, options: { pdf: boolean; validate: boolean }) => {
+    if (!file) {
+      // If no file provided, show help
+      program.help()
+      return
+    }
+
+    // Check if the file argument looks like a resume file
+    const isResumeFile = /\.(ya?ml|json)$/i.test(file)
+    
+    if (!isResumeFile) {
+      // If it doesn't look like a resume file, treat it as an unknown command
+      console.error(`error: unknown command '${file}'`)
+      console.error('')
+      program.help()
+      return
+    }
+
+    try {
+      // Use the build functionality with the provided options
+      buildResume(file, options)
+    } catch (error) {
+      console.error(error.message)
+      process.exit(error.errno || 1)
+    }
+  })

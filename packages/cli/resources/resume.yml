@@ -36,7 +36,7 @@ content:
     # - ordered list, unordored list and nested sub list
     # - links (e.g. `[link](https://ppresume.com)`)
     summary: |
-      - Dynamic, results‑driven TPM with 12+ years leading complex, cross‑functional delivery across software/cloud/SaaS/large‑scale platforms. 
+      - Dynamic, results‑driven TPM with 12+ years leading complex, cross‑functional delivery across cloud/SaaS platforms. 
       - Proven at structuring ambiguity, aligning Product/Engineering/Ops/Execs, and landing measurable outcomes. 
   location:
     # address: 123 Main Street
@@ -86,8 +86,8 @@ content:
        # - Strong communication and teamwork skills acquired through group projects and presentations
   work:
     - name: Quectel Wireless
-      location: Richmond, BC
-      # url: https://ppresume.com
+      #location: Richmond, BC
+      url: Richmond, BC
       startDate: Feb 21, 2023
       endDate:
       position: Senior TPM

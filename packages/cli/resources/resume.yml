@@ -1,0 +1,122 @@
+# yaml-language-server: $schema=https://yamlresume.dev/schema.json
+---
+content:
+  basics:
+    name: Hu Li
+    headline: Senior Technical Program Manager
+    phone: (604) 716-8761
+    email: lihu0808@outlook.com
+    url: https://linkedin.com/in/lihu
+    summary: |
+      Dynamic, results-driven program manager with 12+ years of experience leading complex, cross-functional delivery across software, cloud/SaaS, and large-scale platforms. Proven ability to structure ambiguity, align Product, Engineering, and executive stakeholders, and deliver measurable outcomes. Expertise in CI/CD acceleration, dependency management, and Agile program delivery for global products.
+  location:
+    city: Vancouver
+    region: BC
+    countryCode: CA
+  work:
+    - name: Quectel R&D
+      position: Senior Software Project Manager
+      startDate: '2023-02'
+      # endDate is omitted for current position
+      summary: |
+        - Led smart-vehicle software programs across multiple releases using Agile processes; drove cloud-platform initiatives that enhanced software quality for 5M+ connected cars, contributing to ~$100M in annual revenue.
+        - Managed a $1M program budget, ensuring resource allocation and financial oversight.
+        - Improved CI/CD pipelines via Jenkins/Docker automation, reducing build and deployment times by 30% and accelerating time-to-market.
+        - Orchestrated stakeholder alignment across 5+ global teams, mitigating risks and ensuring program milestones were met on schedule.
+
+    - name: Fortinet
+      position: Technical Program Manager
+      startDate: '2022-06'
+      endDate: '2022-10'
+      summary: |
+        - Managed the end-to-end delivery of a critical SaaS security platform, coordinating with engineering, product, and QA teams.
+        - Developed and maintained the program roadmap, tracked key metrics, and communicated status updates to executive leadership.
+
+    - name: China CITIC Bank
+      position: Technical Program Manager (Cloud Center)
+      startDate: '2016-08'
+      endDate: '2017-04'
+      summary: |
+        - Led a team of 16 to drive the adoption of the AWS cloud roadmap, resulting in a 20% increase in adoption by prioritizing over 100+ requirements in Jira.
+        - Streamlined change management processes, which reduced feature lead times and cut deployment errors by 25%.
+
+    - name: Hewlett Packard Enterprise
+      position: Project Manager (Global Delivery Dept)
+      startDate: '2013-07'
+      endDate: '2016-08'
+      summary: |
+        - Managed a portfolio of 25+ large-scale cloud projects, each with a budget exceeding $5M, which increased system scalability by 16% and reduced operational costs by 10%.
+        - Led Proof of Concept (POC) and Proof of Technology (POT) evaluations, accelerating decision-making for cloud solutions and reducing time-to-market by 12%.
+        - Recognized as a "Top Performer" for three consecutive years.
+
+    - name: Huawei Technologies
+      position: Software Tech Lead (Carrier BG)
+      startDate: '2008-08'
+      endDate: '2013-07'
+      summary: |
+        - Led the development and integration of large-scale Business Support System (BSS) projects, successfully delivering over 30 major projects on time and within budget.
+        - Resolved critical production issues, improving system performance by 15% and reducing downtime by 20%.
+
+  education:
+    - institution: New York Institute of Technology
+      area: Computer Science (Cybersecurity)
+      studyType: Master of Science
+      startDate: '2021-09' # Estimated Start Date
+      endDate: '2023-05'   # Estimated End Date
+      summary: 'Graduated with Distinction'
+
+    - institution: "Xi'an University of Science and Technology"
+      area: Computer Science (Software Engineering)
+      studyType: Bachelor of Science
+      startDate: '2004-09' # Estimated Start Date
+      endDate: '2008-07'   # Estimated End Date
+
+  certificates:
+    - name: Project Management Professional (PMP)
+      issuer: Project Management Institute (PMI)
+      date: '2015-01' # Placeholder Date
+    - name: Certified ScrumMaster (CSM)
+      issuer: Scrum Alliance
+      date: '2018-01' # Placeholder Date
+    - name: ITIL Foundation Certificate in IT Service Management
+      issuer: AXELOS
+      date: '2014-01' # Placeholder Date
+
+  skills:
+    - name: Methodologies & Program Management
+      keywords:
+        - Agile Program Delivery
+        - Stakeholder Alignment
+        - Risk/RAID Management
+        - Dependency Management
+        - Change Management
+        - CI/CD & Release Governance
+        - Budget & Resource Planning
+        - Vendor Management
+        - RACI, OKRs, KPIs
+
+    - name: Tools & Technologies
+      keywords:
+        - Jira
+        - Confluence
+        - Google Workspace
+        - MS Project
+        - Trello
+        - Lucidchart / Miro
+        - Jenkins
+        - Docker
+        - AWS
+
+layout:
+  locale:
+    language: en
+  margins:
+    top: 2.0cm
+    left: 1.5cm
+    right: 1.5cm
+    bottom: 2.0cm
+  page:
+    showPageNumbers: true
+  template: moderncv-banking
+  typography:
+    fontSize: 10pt
